@@ -20,6 +20,7 @@
 		F5001025167F01990079F3DB /* RectorScaleFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5001024167F01990079F3DB /* RectorScaleFlipsideViewController.m */; };
 		F5001028167F01990079F3DB /* RectorScaleMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5001026167F01990079F3DB /* RectorScaleMainViewController.xib */; };
 		F500102B167F01990079F3DB /* RectorScaleFlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5001029167F01990079F3DB /* RectorScaleFlipsideViewController.xib */; };
+		F508EB39168ACCBE0010D74D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F508EB38168ACCBE0010D74D /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		F5001024167F01990079F3DB /* RectorScaleFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RectorScaleFlipsideViewController.m; sourceTree = "<group>"; };
 		F5001027167F01990079F3DB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RectorScaleMainViewController.xib; sourceTree = "<group>"; };
 		F500102A167F01990079F3DB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RectorScaleFlipsideViewController.xib; sourceTree = "<group>"; };
+		F508EB38168ACCBE0010D74D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F508EB39168ACCBE0010D74D /* AVFoundation.framework in Frameworks */,
 				F5001009167F01990079F3DB /* UIKit.framework in Frameworks */,
 				F500100B167F01990079F3DB /* Foundation.framework in Frameworks */,
 				F500100D167F01990079F3DB /* CoreGraphics.framework in Frameworks */,
@@ -61,6 +64,7 @@
 		F5000FF9167F01980079F3DB = {
 			isa = PBXGroup;
 			children = (
+				F508EB38168ACCBE0010D74D /* AVFoundation.framework */,
 				F500100E167F01990079F3DB /* RectorScale */,
 				F5001007167F01990079F3DB /* Frameworks */,
 				F5001005167F01990079F3DB /* Products */,
@@ -311,6 +315,7 @@
 				F5001030167F01990079F3DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
